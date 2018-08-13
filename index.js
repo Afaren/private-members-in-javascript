@@ -25,3 +25,6 @@ console.log(container.service());   // 3
 console.log(container.service());   // 3
 console.log(container.service());   // 3
 console.log(container.service());   // null
+
+
+console.log(container.dec())  // should throw error cause dec is private
